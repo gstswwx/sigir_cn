@@ -1,0 +1,29 @@
+<!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          {% if site.email %}
+          <li class="list-inline-item">
+            <a href="mailto:{{ site.email }}">
+              <img width="60" height="60" src="{{ site.baseurl }}/{{site.email_icon}}"/>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.weibo_username %}
+          <li class="list-inline-item">
+            <a href="https://www.weibo.com/{{ site.weibo_username }}">
+              <img width="60" height="60" src="{{ site.baseurl }}/{{site.weibo_icon}}"/>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
