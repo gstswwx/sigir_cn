@@ -1,7 +1,6 @@
-title:             SIGIR中国
-email:             your-email@example.com
-description:       SIGIR中国支部
-author:            SIGIR_CN
+title:             SIGIR Beijing Chapter
+description:       SIGIR Beijing Chapter
+author:            SIGIR Beijing Chapter
 baseurl:           ""
 url:               "http://0.0.0.0:4000"
 
@@ -9,7 +8,7 @@ weibo_icon:        img/icon/weibo.png
 email_icon:        img/icon/email.png
 
 # Social Profiles
-email:  xxx@xxx.com
+email:  your-email@example.com
 weibo_username:   xinhuashidian
 
 # Build settings
